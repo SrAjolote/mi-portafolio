@@ -1,0 +1,646 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>David Sanchez - Desarrollador Full Stack</title>
+    <meta name="description" content="Portfolio profesional de David Sanchez, desarrollador full stack especializado en tecnologías modernas">
+    <meta name="keywords" content="David Sanchez, desarrollador, fullstack, full stack, portfolio, programador, web development">
+    <meta name="author" content="David Sanchez">
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="David Sanchez - Desarrollador Full Stack">
+    <meta property="og:description" content="Portfolio profesional de David Sanchez, desarrollador full stack">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://tu-dominio.com">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="styles.css">
+    
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-text">DAVID DEV</span>
+                <span class="logo-accent">.</span>
+            </div>
+            
+            <ul class="nav-menu" id="nav-menu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">Sobre mí</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#skills" class="nav-link">Habilidades</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#projects" class="nav-link">Proyectos</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contacto</a>
+                </li>
+            </ul>
+            
+            <div class="nav-actions">
+                <button class="theme-toggle" id="theme-toggle" aria-label="Cambiar tema">
+                    <i class="fas fa-moon"></i>
+                </button>
+                <button class="mobile-menu-toggle" id="mobile-menu-toggle" aria-label="Menú móvil">
+                    <span class="hamburger-line"></span>
+                    <span class="hamburger-line"></span>
+                    <span class="hamburger-line"></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-background">
+            <div class="hero-particles"></div>
+            <div class="hero-gradient"></div>
+        </div>
+        
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <div class="hero-greeting">
+                        <span class="greeting-text">Hola, soy</span>
+                        <div class="greeting-wave">👋</div>
+                    </div>
+                    
+                    <h1 class="hero-name">
+                        <span class="name-first">David</span>
+                        <span class="name-last">Sanchez</span>
+                    </h1>
+                    
+                    <div class="hero-role">
+                        <span class="role-text">Desarrollador</span>
+                        <span class="role-highlight">Full Stack</span>
+                    </div>
+                    
+                    <p class="hero-description">
+                        Desarrollador Full Stack apasionado por crear experiencias digitales excepcionales. 
+                        Especializado en tecnologías modernas tanto frontend como backend, con enfoque en código limpio y arquitecturas escalables.
+                    </p>
+                    
+                    <div class="hero-stats">
+                        <div class="stat-item">
+                            <span class="stat-number">3+</span>
+                            <span class="stat-label">Años de experiencia</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">50+</span>
+                            <span class="stat-label">Proyectos completados</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">15+</span>
+                            <span class="stat-label">Tecnologías dominadas</span>
+                        </div>
+                    </div>
+                    
+                    <div class="hero-actions">
+                        <a href="#contact" class="btn btn-primary">
+                            <span>Contáctame</span>
+                            <i class="fas fa-arrow-right"></i>
+                        </a>
+                        <a href="cv.pdf" class="btn btn-secondary" download>
+                            <i class="fas fa-download"></i>
+                            <span>Descargar CV</span>
+                        </a>
+                    </div>
+                    
+                    <div class="hero-social">
+                        <a href="mailto:indecentoff@gmail.com" class="social-link" aria-label="Email">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                        <a href="https://github.com/SrAjolote?tab=repositories" class="social-link" aria-label="GitHub" target="_blank">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://www.instagram.com/david.php.js" class="social-link" aria-label="Instagram" target="_blank">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="https://www.facebook.com/DavidSanchezGDGS" class="social-link" aria-label="Facebook" target="_blank">
+                            <i class="fab fa-facebook"></i>
+                        </a>
+                        <a href="https://davidsanchez.shop" class="social-link" aria-label="Website" target="_blank">
+                            <i class="fas fa-globe"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="hero-visual">
+                    <div class="hero-image">
+                        <div class="image-container">
+                            <div class="profile-image">
+                                <div class="image-placeholder">
+                                    <i class="fas fa-user"></i>
+                                </div>
+                                <div class="image-decoration">
+                                    <div class="decoration-dot dot-1"></div>
+                                    <div class="decoration-dot dot-2"></div>
+                                    <div class="decoration-dot dot-3"></div>
+                                </div>
+                            </div>
+                            
+                            <div class="floating-cards">
+                                <div class="floating-card card-1">
+                                    <i class="fab fa-html5"></i>
+                                    <span>HTML</span>
+                                </div>
+                                <div class="floating-card card-2">
+                                    <i class="fab fa-python"></i>
+                                    <span>Python</span>
+                                </div>
+                                <div class="floating-card card-3">
+                                    <i class="fas fa-database"></i>
+                                    <span>Database</span>
+                                </div>
+                                <div class="floating-card card-4">
+                                    <i class="fab fa-php"></i>
+                                    <span>PHP</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="scroll-indicator">
+            <div class="scroll-mouse">
+                <div class="scroll-wheel"></div>
+            </div>
+            <span class="scroll-text">Scroll para explorar</span>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Conoce más</span>
+                <h2 class="section-title">Sobre mí</h2>
+                <p class="section-subtitle">
+                    Desarrollador backend apasionado por crear soluciones tecnológicas innovadoras
+                </p>
+            </div>
+            
+            <div class="about-content">
+                <div class="about-text">
+                    <div class="about-intro">
+                        <h3>Mi historia</h3>
+                        <p>
+                            Soy David Sanchez, un desarrollador Full Stack freelance con más de 3 años de experiencia 
+                            creando aplicaciones web completas y escalables. Mi pasión por la tecnología me 
+                            impulsa a dominar tanto el frontend como el backend, siempre adoptando las mejores 
+                            prácticas del desarrollo de software moderno.
+                        </p>
+                    </div>
+                    
+                    <div class="about-details">
+                        <div class="detail-item">
+                            <div class="detail-icon">
+                                <i class="fas fa-code"></i>
+                            </div>
+                            <div class="detail-content">
+                                <h4>Desarrollo Full Stack</h4>
+                                <p>Especializado en desarrollo completo: frontend moderno, APIs REST, microservicios y arquitecturas escalables</p>
+                            </div>
+                        </div>
+                        
+                        <div class="detail-item">
+                            <div class="detail-icon">
+                                <i class="fas fa-database"></i>
+                            </div>
+                            <div class="detail-content">
+                                <h4>Bases de Datos</h4>
+                                <p>Experiencia con SQL y NoSQL, optimización de consultas y diseño de esquemas</p>
+                            </div>
+                        </div>
+                        
+                        <div class="detail-item">
+                            <div class="detail-icon">
+                                <i class="fas fa-cloud"></i>
+                            </div>
+                            <div class="detail-content">
+                                <h4>Cloud & DevOps</h4>
+                                <p>Despliegue en la nube, containerización y automatización de procesos</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="about-cta">
+                        <a href="#contact" class="btn btn-outline">
+                            <span>Trabajemos juntos</span>
+                            <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="about-visual">
+                    <div class="experience-card">
+                        <div class="experience-header">
+                            <h4>Experiencia</h4>
+                            <span class="experience-years">3+ años</span>
+                        </div>
+                        
+                        <div class="experience-list">
+                            <div class="experience-item">
+                                <div class="experience-dot"></div>
+                                <div class="experience-content">
+                                    <h5>Freelance Developer</h5>
+                                    <span class="experience-company">Independiente</span>
+                                    <span class="experience-period">2022 - Presente</span>
+                                </div>
+                            </div>
+                            
+                            <div class="experience-item">
+                                <div class="experience-dot"></div>
+                                <div class="experience-content">
+                                    <h5>Desarrollador Full Stack</h5>
+                                    <span class="experience-company">Startup Inc.</span>
+                                    <span class="experience-period">2021 - 2022</span>
+                                </div>
+                            </div>
+                            
+                            <div class="experience-item">
+                                <div class="experience-dot"></div>
+                                <div class="experience-content">
+                                    <h5>Junior Dev</h5>
+                                    <span class="experience-company">Dev Agency</span>
+                                    <span class="experience-period">2020 - 2021</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills" id="skills">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Tecnologías</span>
+                <h2 class="section-title">Mis Habilidades</h2>
+                <p class="section-subtitle">
+                    Tecnologías y herramientas que domino para crear soluciones excepcionales
+                </p>
+            </div>
+            
+            <div class="skills-content">
+                <div class="skills-categories">
+                    <div class="skill-category">
+                        <div class="category-header">
+                            <div class="category-icon">
+                                <i class="fas fa-server"></i>
+                            </div>
+                            <h3>Backend</h3>
+                        </div>
+                        
+                        <div class="skills-list">
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">HTML</span>
+                                    <span class="skill-level">95%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="95"></div>
+                                </div>
+                            </div>
+                            
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">Python</span>
+                                    <span class="skill-level">90%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="90"></div>
+                                </div>
+                            </div>
+                            
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">CSS</span>
+                                    <span class="skill-level">92%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="92"></div>
+                                </div>
+                            </div>
+                            
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">FastAPI</span>
+                                    <span class="skill-level">88%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="88"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-category">
+                        <div class="category-header">
+                            <div class="category-icon">
+                                <i class="fas fa-database"></i>
+                            </div>
+                            <h3>Bases de Datos</h3>
+                        </div>
+                        
+                        <div class="skills-list">
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">PostgreSQL</span>
+                                    <span class="skill-level">90%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="90"></div>
+                                </div>
+                            </div>
+                            
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">MongoDB</span>
+                                    <span class="skill-level">85%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="85"></div>
+                                </div>
+                            </div>
+                            
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">JavaScript</span>
+                                    <span class="skill-level">80%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="80"></div>
+                                </div>
+                            </div>
+                            
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">MySQL</span>
+                                    <span class="skill-level">87%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="87"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-category">
+                        <div class="category-header">
+                            <div class="category-icon">
+                                <i class="fas fa-code"></i>
+                            </div>
+                            <h3>Lenguajes de Programación</h3>
+                        </div>
+                        
+                        <div class="skills-list">
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">PHP</span>
+                                    <span class="skill-level">88%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="88"></div>
+                                </div>
+                            </div>
+                            
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">Java</span>
+                                    <span class="skill-level">82%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="82"></div>
+                                </div>
+                            </div>
+                            
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">C++</span>
+                                    <span class="skill-level">75%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="75"></div>
+                                </div>
+                            </div>
+                            
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">TypeScript</span>
+                                    <span class="skill-level">85%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="85"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects" id="projects">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Mi trabajo</span>
+                <h2 class="section-title">Proyectos Destacados</h2>
+                <p class="section-subtitle">
+                    Una selección de proyectos que demuestran mis habilidades y experiencia
+                </p>
+            </div>
+            
+            <div class="projects-filter">
+                <button class="filter-btn active" data-filter="all">Todos</button>
+                <button class="filter-btn" data-filter="api">APIs</button>
+                <button class="filter-btn" data-filter="web">Web Apps</button>
+                <button class="filter-btn" data-filter="mobile">Mobile</button>
+            </div>
+            
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Conectemos</span>
+                <h2 class="section-title">Contacto</h2>
+                <p class="section-subtitle">
+                    ¿Tienes un proyecto en mente? Hablemos sobre cómo puedo ayudarte
+                </p>
+            </div>
+            
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Email</h4>
+                            <p>indecentoff@gmail.com</p>
+                            <a href="mailto:indecentoff@gmail.com" class="contact-link">
+                                Enviar mensaje
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-globe"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Portfolio</h4>
+                            <p>davidsanchez.shop</p>
+                            <a href="https://davidsanchez.shop" class="contact-link" target="_blank">
+                                Visitar sitio
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fab fa-github"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>GitHub</h4>
+                            <p>Revisa mis proyectos</p>
+                            <a href="https://github.com/SrAjolote?tab=repositories" class="contact-link" target="_blank">
+                                Ver repositorios
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contact-form-container">
+                    <form class="contact-form" id="contact-form">
+                        <div class="form-group">
+                            <label for="name">Nombre</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="subject">Asunto</label>
+                            <input type="text" id="subject" name="subject" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">Mensaje</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary btn-full">
+                            <span>Enviar Mensaje</span>
+                            <i class="fas fa-paper-plane"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-info">
+                    <div class="footer-logo">
+                        <span class="logo-text">DEV</span>
+                        <span class="logo-accent">.</span>
+                    </div>
+                    <p class="footer-description">
+                        Desarrollador backend especializado en crear soluciones robustas y escalables. 
+                        Siempre buscando nuevos desafíos y oportunidades de crecimiento.
+                    </p>
+                    <div class="footer-social">
+                        <a href="mailto:indecentoff@gmail.com" class="social-link" aria-label="Email">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                        <a href="https://github.com/SrAjolote?tab=repositories" class="social-link" aria-label="GitHub" target="_blank">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://www.instagram.com/david.php.js" class="social-link" aria-label="Instagram" target="_blank">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="https://www.facebook.com/DavidSanchezGDGS" class="social-link" aria-label="Facebook" target="_blank">
+                            <i class="fab fa-facebook"></i>
+                        </a>
+                        <a href="https://davidsanchez.shop" class="social-link" aria-label="Portfolio" target="_blank">
+                            <i class="fas fa-globe"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="footer-links">
+                    <div class="footer-section">
+                        <h4>Navegación</h4>
+                        <ul>
+                            <li><a href="#home">Inicio</a></li>
+                            <li><a href="#about">Sobre mí</a></li>
+                            <li><a href="#skills">Habilidades</a></li>
+                            <li><a href="#projects">Proyectos</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="footer-section">
+                        <h4>Servicios</h4>
+                        <ul>
+                            <li><a href="#contact">Desarrollo de APIs</a></li>
+                            <li><a href="#contact">Arquitectura Backend</a></li>
+                            <li><a href="#contact">Consultoría Técnica</a></li>
+                            <li><a href="#contact">Optimización</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="footer-section">
+                        <h4>Contacto</h4>
+                        <ul>
+                            <li><a href="mailto:indecentoff@gmail.com">Email</a></li>
+                            <li><a href="#contact">Formulario</a></li>
+                            <li><a href="cv.pdf" download>Descargar CV</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 David Dev. Todos los derechos reservados.</p>
+                <p>Hecho con ❤️ y mucho café</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
+</body>
+</html>
