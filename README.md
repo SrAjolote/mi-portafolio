@@ -1,19 +1,24 @@
-# mi-portafolio
-Hola, soy David Sánchez, desarrollador web con enfoque en backend y conocimientos de frontend, trabajando como Junior Full Stack Developer.
+# 🌐 David Sánchez - Portafolio
 
-Este repositorio contiene mi portafolio web, con proyectos que demuestran mis habilidades en desarrollo web y programación backend.
+Hola, soy **David Sánchez**, desarrollador web con enfoque en backend y conocimientos de frontend, trabajando como Junior Full Stack Developer.
 
-Tecnologías
+## 🚀 Mi Portafolio
 
-Backend: PHP
+Visita mi portafolio para conocer más sobre mi trabajo y proyectos:
 
-Base de datos: MySQL
+🔗 **[https://davidsanchez.shop](https://davidsanchez.shop)**
 
-Frontend: HTML, CSS, JavaScript
-
-Control de versiones: Git / GitHub
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="images/dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="images/light.svg" />
   <img alt="Breakout Game" src="images/light.svg" />
 </picture>
+
+## 💻 Tecnologías
+
+- **Backend:** PHP
+- **Base de datos:** MySQL
+- **Frontend:** HTML, CSS, JavaScript
+- **Control de versiones:** Git / GitHub
+
+⭐ *Desde mi corazón de código - ¡Gracias por visitar!*
