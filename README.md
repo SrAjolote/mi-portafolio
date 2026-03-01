@@ -6,7 +6,7 @@ Hola, soy **David Sánchez**, desarrollador web con enfoque en backend y conocim
 
 Visita mi portafolio para conocer más sobre mi trabajo y proyectos:
 
-🔗 **[https://davidsanchez.shop](https://davidsanchez.shop)**
+🔗 **[https://jdgutierrez.online/](https://jdgutierrez.online/)**
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="images/dark.svg" />
