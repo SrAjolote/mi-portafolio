@@ -9,9 +9,22 @@ Visita mi portafolio para conocer más sobre mi trabajo y proyectos:
 🔗 **[https://jdgutierrez.online/](https://jdgutierrez.online/)**
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="images/dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="images/light.svg" />
-  <img alt="Breakout Game" src="images/light.svg" />
+  <source 
+    srcset="images/dark.svg" 
+    media="(prefers-color-scheme: dark)" 
+  />
+  <source 
+    srcset="images/light.svg" 
+    media="(prefers-color-scheme: light)" 
+  />
+  <img 
+    src="images/light.svg" 
+    alt="Breakout Game preview" 
+    loading="lazy"
+    decoding="async"
+    width="500"
+    height="300"
+  />
 </picture>
 
 ## 💻 Tecnologías
