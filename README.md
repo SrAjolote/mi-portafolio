@@ -9,17 +9,14 @@ Visita mi portafolio para conocer más sobre mi trabajo y proyectos:
 🔗 **[https://jdgutierrez.online/](https://jdgutierrez.online/)**
 
 <picture>
-  <source 
-    srcset="images/dark.svg" 
-    media="(prefers-color-scheme: dark)" 
-  />
-  <img 
-    src="images/light.svg" 
-    alt="Breakout Game preview"
-    loading="lazy"
-    decoding="async"
+  <source srcset="images/dark.svg" media="(prefers-color-scheme: dark)" />
+  <img
+    src="images/light.svg"
+    alt="Vista previa del juego Ping Pong"
     width="500"
     height="300"
+    loading="lazy"
+    decoding="async"
   />
 </picture>
 
