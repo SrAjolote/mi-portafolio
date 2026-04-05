@@ -13,13 +13,9 @@ Visita mi portafolio para conocer más sobre mi trabajo y proyectos:
     srcset="images/dark.svg" 
     media="(prefers-color-scheme: dark)" 
   />
-  <source 
-    srcset="images/light.svg" 
-    media="(prefers-color-scheme: light)" 
-  />
   <img 
     src="images/light.svg" 
-    alt="Breakout Game preview" 
+    alt="Breakout Game preview"
     loading="lazy"
     decoding="async"
     width="500"
